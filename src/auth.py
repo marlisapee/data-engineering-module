@@ -23,6 +23,6 @@ def auth(config_filename):
 
   return s3_resource, s3_bucket
 
-test = auth('../config.ini')
+test = auth('config.ini')
 print(test[0])
 print(test[1])
